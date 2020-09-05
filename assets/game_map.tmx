@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="105">
  <tileset firstgid="1" source="rpg-tiles-64.tsx"/>
  <layer id="3" name="Background" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVlMEOgjAQRHsSjII3DqIIem3VRPj/X3ObdJPJuIV6eAfo9nVLp0zOuWBwE0bgLjRClzgID6qJTFCDfISTUZtbb8vnk3MGb+zxmIi9tTSOvp3QCzX4lLVeAu1Ffefkuyan7svqc0y9LVCnNezbC2/3ez4dzJmTy1ONh56fwgtcneHjZyaAzzoPhcetfIUNH+asoXfx7CqgLvRpZjXLOid+6yF978gFxjj3ufzruamvz/i4Nnc//vHxftjJWdvycT3f44X6X/O1Rn0uWyW+3P/Aypq+0+wreJ/03kQwV7XhsdbgOxfAZWVqB35fuBd26X+mgvf632EHrhdoTgkVMdD6X8bAMDY=
+   eJyNlMsOgjAQRVkBxteOhQ8U3bZqIvz/rzlNepOb6xRYnIV0ejq1tx2qqooON+NOPIy90WW2xlNqEgPVMF/j6NSW1lvyhewcyZt63GVSbwcZZ19tnI2WfGCulyh7ge+UfdfsxL68Pu+5t4nqUKO+jfGp/s+nozljdgWpCdTzy3iTq3N8+luJ5PPOA+i4l6+44OOc7eVbOruGaFf6kFlkGXPwX4MLjWnuS/nHuS35tLZ0P+Z8Z/HpftSpWVvqT+v1Hk/S/5zv4NSXsrXGV3oPvKzhG7IP+D7h3iQ4V63j8dbQOxfJ1Tt7qMkfVu5FXXhnGvqOd0cdvF6UOWtohF7W/wG6jDAy
   </data>
  </layer>
  <layer id="4" name="Scenery" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+   eJxjYCAdnCZCzVYSzLtPhhuGE9hJglpSwpVYcAqNfwYLJgXcQ+M/wIKxpaGzRJiNK+1hS0MPiTCP2mmPmLxBCsDnvpNkmIfPfXfJMI9e4UdsuKLnD1zuo8TduPIHyG58eXkbDvEHWDAIoOdLYgDIDduRaGSAni+pAQBNlSrX
   </data>
  </layer>
  <layer id="5" name="Overlay" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+   eJxjYBgFo2BogUQgjkfCSRSaV4rGL6OCeb+A+CIVzbsINZMaAGbeMyh/MPr3GQPCv5SaF8eAml4SKDRvFCAAAJe7EcA=
   </data>
  </layer>
+ <objectgroup id="7" name="ObjectData">
+  <object id="6" name="key" x="258.667" y="269.333" width="58.6667" height="38.6667"/>
+  <object id="7" name="coin" x="860" y="660" width="33.3333" height="58.6667"/>
+  <object id="8" name="coin" x="860" y="757.333" width="32" height="64"/>
+  <object id="9" name="coin" x="860" y="868" width="33.3333" height="61.3333"/>
+  <object id="10" name="door" x="1128" y="701.333" width="22.6667" height="66.6667"/>
+  <object id="11" name="player" x="518.666" y="1036" width="53.3334" height="46.6666"/>
+  <object id="93" x="474.667" y="601.333" width="206.667" height="209.333"/>
+  <object id="95" x="401.333" y="49.3333" width="349.333" height="81.3333"/>
+  <object id="96" x="900" y="46.6667" width="337.333" height="138.667"/>
+  <object id="97" x="474.667" y="144" width="416" height="42.6667"/>
+  <object id="98" x="601.333" y="205.333" width="397.333" height="90.6667"/>
+  <object id="99" x="1110.67" y="194.667" width="122.667" height="52"/>
+  <object id="100" x="1172" y="257.333" width="66.6667" height="53.3333"/>
+  <object id="101" x="724" y="306.667" width="217.333" height="53.3333"/>
+ </objectgroup>
+ <objectgroup id="8" name="PhysicsData">
+  <object id="13" x="60" y="1334.67" height="4"/>
+  <object id="14" x="1277.33" y="1220" width="60" height="1274.67" rotation="90"/>
+  <object id="15" x="1246.67" y="7.99833" width="32" height="1234.67"/>
+  <object id="17" x="833.333" y="514.667" width="314.667" height="58.6667"/>
+  <object id="18" x="836" y="969.333" width="297.334" height="58.6667"/>
+  <object id="19" x="849.333" y="580" width="384" height="13.3334" rotation="90"/>
+  <object id="20" x="1149.33" y="578.667" width="124" height="13.3334" rotation="90"/>
+  <object id="21" x="1150.67" y="769.333" width="258.667" height="13.3334" rotation="90"/>
+  <object id="22" x="190.667" y="586.667" width="64" height="54.6667"/>
+  <object id="23" x="572" y="458" width="64" height="54.6667"/>
+  <object id="85" x="910.667" y="645.333" width="102.667" height="316"/>
+  <object id="89" x="2.66667" y="-4" width="49.3333" height="1214.66"/>
+  <object id="90" x="66.6667" y="657.333" width="48" height="288"/>
+  <object id="91" x="124" y="784" width="57.3333" height="100"/>
+  <object id="92" x="1242.67" y="3.99833" width="32" height="1180" rotation="90"/>
+  <object id="102" x="524" y="538" width="97.3333" height="54.6667"/>
+  <object id="103" x="534.667" y="820.667" width="85.3333" height="54.6667"/>
+  <object id="104" x="402.667" y="655.333" width="64" height="97.3334"/>
+ </objectgroup>
 </map>
